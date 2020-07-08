@@ -20,5 +20,6 @@ export const LocationGoogle = {
   adapters: {
     mongoose: MongoLocationGoogleInterface,
     knex: KnexLocationGoogleInterface,
+    prisma: 'FIXME'
   },
 };
