@@ -1,5 +1,18 @@
 # @keystonejs/fields
 
+## 16.1.0
+
+### Minor Changes
+
+- [`9338f3739`](https://github.com/keystonejs/keystone/commit/9338f3739ecff5f626a713a06ce65c1e29888d25) [#3363](https://github.com/keystonejs/keystone/pull/3363) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Expose field type views at `@keystonejs/fields/types/*/views/{Cell,Controller,Filter,Field}`
+
+### Patch Changes
+
+- [`7b0875723`](https://github.com/keystonejs/keystone/commit/7b0875723783780988f2dee4e5ee406a3b44ca98) [#3371](https://github.com/keystonejs/keystone/pull/3371) Thanks [@singhArmani](https://github.com/singhArmani)! - Added filter tests for `DateTimeUtc` field
+
+- Updated dependencies [[`9338f3739`](https://github.com/keystonejs/keystone/commit/9338f3739ecff5f626a713a06ce65c1e29888d25)]:
+  - @keystonejs/app-admin-ui@7.3.1
+
 ## 16.0.0
 
 ### Major Changes

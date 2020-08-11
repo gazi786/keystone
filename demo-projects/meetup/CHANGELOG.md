@@ -1,5 +1,19 @@
 # @keystonejs/demo-project-meetup
 
+## 6.2.1
+
+### Patch Changes
+
+- [`30bfdc158`](https://github.com/keystonejs/keystone/commit/30bfdc1586009cca8ff027b95fc68063047e8621) [#3372](https://github.com/keystonejs/keystone/pull/3372) Thanks [@singhArmani](https://github.com/singhArmani)! - **Fixed the `CloudinaryImage` field import in meetup demo**
+
+  The `CloudinaryImage` was wrongly imported from `@keystonejs/fields` package causing an invalid type error.
+
+  This change imports it correctly from `@keystonejs/fields-cloudinary-image`.
+
+- Updated dependencies [[`9338f3739`](https://github.com/keystonejs/keystone/commit/9338f3739ecff5f626a713a06ce65c1e29888d25), [`7b0875723`](https://github.com/keystonejs/keystone/commit/7b0875723783780988f2dee4e5ee406a3b44ca98), [`9338f3739`](https://github.com/keystonejs/keystone/commit/9338f3739ecff5f626a713a06ce65c1e29888d25)]:
+  - @keystonejs/fields@16.1.0
+  - @keystonejs/app-admin-ui@7.3.1
+
 ## 6.2.0
 
 ### Minor Changes
